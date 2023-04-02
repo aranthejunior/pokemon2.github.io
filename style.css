@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(./PokemonBackground.jpg);
+
+    /* background-image: url(./PokemonBackground.jpg); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.div-button{
+    margin-bottom: 2rem;
+}
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+section {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+#PokemonWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+body #PokemonWrapper {
+    height: 300px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin: auto;
+}
+
+.card img{
+    width: 10rem;
+    align-self: center;
+}
+
+#PokemonWrapper .grass {
+    background-color: #8dd694ec;
+    border: 3px solid #62B16A;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .water {
+    background-color: #8DC5E6ec;
+    border: 3px solid #72A2CD;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .bug {
+    background-color: #BDDD7Aec;
+    border: 3px solid #A5C471;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .normal {
+    background-color: #B1B1B1ec;
+    border: 3px solid #989898;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .poison {
+    background-color: #A55EB1ec;
+    border: 3px solid #9B57A7;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .electric {
+    background-color: #E7C859ec;
+    border: 3px solid #D0B34A;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .ground {
+    background-color: #efbe85ec;
+    border: 3px solid #d0a068;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .fairy {
+    background-color: #eea1e2ec;
+    border: 3px solid #c77fbc;
+    border-radius: 20px;
+}
+
+#PokemonWrapper .fire {
+    background-color: #e69d8dec;
+    border: 3px solid #c67d6d;
+    border-radius: 20px;
+}
